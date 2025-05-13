@@ -1,0 +1,9 @@
+import matplotlib
+matplotlib.use('TkAgg') # 设置matplotlib后端为TkAgg，确保GUI兼容性/Установите для бэкенда matplotlib значение TkAgg, чтобы обеспечить совместимость с графическим интерфейсом.
+import mne # EEG数据处理库/Библиотека обработки данных ЭЭГ
+import numpy as np # 数值计算/численный расчёт
+import matplotlib.pyplot as plt # 绘图/чертежи
+from scipy.signal import butter, filtfilt # 滤波器设计/Дизайн фильтров
+import pywt # 小波变换/вейвлет-преобразование (математика)
+import pandas as pd # 数据读取/操作/Считывание данных/операции
+import os # 文件路径管理/Управление путями файлов
